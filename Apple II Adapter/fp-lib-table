@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "C64 JoyKEY")(type KiCad)(uri "$KIPRJMOD/../common/modules/C64 JoyKEY.pretty")(options "")(descr ""))
+  (lib (name Mounting)(type KiCad)(uri $KIPRJMOD/../common/modules/mounting.pretty)(options "")(descr ""))
+)

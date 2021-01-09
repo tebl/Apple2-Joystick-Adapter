@@ -1,5 +1,6 @@
 (sym_lib_table
   (lib (name atari_joystick)(type Legacy)(uri $KIPRJMOD/../common/library/atari_joystick.lib)(options "")(descr ""))
   (lib (name c64_joykey)(type Legacy)(uri $KIPRJMOD/../common/library/c64_joykey.lib)(options "")(descr ""))
-  (lib (name apple2_joystick)(type Legacy)(uri "C:/owncloud/Documents/Projects/Apple II Joystick Adapter/common/library/apple2_joystick.lib")(options "")(descr ""))
+  (lib (name apple2_joystick)(type Legacy)(uri $KIPRJMOD/../common/library/apple2_joystick.lib)(options "")(descr ""))
+  (lib (name mounting)(type Legacy)(uri $KIPRJMOD/../common/library/mounting.lib)(options "")(descr ""))
 )
