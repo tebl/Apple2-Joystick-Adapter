@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.8)-1*%
-%TF.CreationDate,2021-01-19T01:30:05+01:00*%
+%TF.CreationDate,2021-01-29T01:54:29+01:00*%
 %TF.ProjectId,Apple II Adapter,4170706c-6520-4494-9920-416461707465,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-01-19 01:30:05*
+G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-01-29 01:54:29*
 %MOMM*%
 %LPD*%
 G01*
