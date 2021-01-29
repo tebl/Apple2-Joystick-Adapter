@@ -1,4 +1,4 @@
-19045815574634434
+19034051687613324
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,6 +2274,13 @@ speaker CUI
 0
 2
 2
+C64 JoyKEY
+IDC_Joystick
+Through hole straight IDC box header, 2x05, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x05 2.54mm double row
+0
+10
+10
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -56356,6 +56363,27 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+Mounting
+M2
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+Mounting
+M3
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+0
+0
+Mounting
+M3_pin
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
 MountingEquipment
 DINRailAdapter_3xM3_PhoenixContact_1201578
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1
@@ -83026,94 +83054,10 @@ varistor SIOV
 0
 2
 2
-arduino_pro_micro
-Arduino_Pro_Micro
-
-
+adapter
+DIP-16_W7.62mm_Socket_LongPads
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
 0
-36
-24
-arduino_pro_micro
-Arduino_Pro_Micro_Reverse
-
-
-0
-36
-24
-artwork
-captain_blood1
-
-
-0
-0
-0
-artwork
-captain_blood2
-
-
-0
-0
-0
-artwork
-captain_blood3
-
-
-0
-0
-0
-artwork
-ik_plus
-
-
-0
-0
-0
-artwork
-last_ninja
-
-
-0
-0
-0
-artwork
-platoon
-
-
-0
-0
-0
-artwork
-robocop
-
-
-0
-0
-0
-artwork
-shinobi
-
-
-0
-0
-0
-mounting
-M2
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-mounting
-M3
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-0
-0
-mounting
-M3_pin
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
+16
+16
