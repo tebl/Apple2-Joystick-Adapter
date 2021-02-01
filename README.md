@@ -28,9 +28,18 @@ The last step I usually do with my boards, is installing an M3 nylon standoff (1
 Onto the next step, because everyone loves making cables.
 
 ## 1.2> IDC-cables
-While I would have liked to just use something that could be ordered straight from AliExpress without going so far as creating a custom cable, all of the ones I've found were mostly IDC to RS232 adapters - those have a rather randomized pin layout so I chose not to use them as a basis. The method I used instead was order said cables, cut off the DB9 part and then just add a new male DB9 IDC connector that lines up pin 1 with pin 1.
+While I would have liked to just use something that could be ordered straight from AliExpress without going so far as creating a custom cable, all of the ones I've found were mostly IDC to RS232 adapters - those have a rather randomized pin layout so I chose not to use them in the design. The method I used instead was order said cables, cut off the DB9 part already on there and then just add a new male DB9 IDC connector so that pin 1 with pin 1 on both sides (red stripe).
 
-You can create the whole cable by yourself, should you choose to do so. Soldering connectors do kind of suck, so I've listed IDC connectors in the miscellaneous section - these are assembled by aligning pin 1 of the flat cable with pin 1 of the connector, then just push really hard down on it with something hard (if you don't have a vise) like the handle of a screwdriver. Note that the 2x5pin IDC side will have a spot for a tenth wire, this is left empty as the DB9 side only requires the 9 wires.
+![Cable parts](https://github.com/tebl/Apple2-Joystick-Adapter/raw/main/gallery/cable_001.jpg)
+![Cable parts](https://github.com/tebl/Apple2-Joystick-Adapter/raw/main/gallery/cable_002.jpg)
+
+The flat ribbon DB9 connector is easy to use, just push the ribbon through and align - then push down on it with something hard like the handle of a screwdriver (if you don't have a vise). Wrap the cable over, clip the strain relief over the top. The result you should end up with looks like the following, note the position of the tab in relation to the red wire on both sides.
+
+![Cable parts](https://github.com/tebl/Apple2-Joystick-Adapter/raw/main/gallery/cable_003.jpg)
+
+If also adding the 2x5pin straight pin IDC to the other side, then it will have a spot for the tenth wire, this is left empty as we only use nine for the DB9. The process for fixing it into place is the same as before, but there is probably no strain relief this time - so align it according to picture above
+
+Screw the IDC-connector into the case using M3-screws, I mainly use those that come with the cables if you got them (M3x6mm hex standoff, brass or otherwise as long as the cable is firmly in place).
 
 # 2> BOM
 This is the list of parts that you'd need in order to construct Apple ][ Joystick Adapter, most could quite possibly be sourced from your friendly neighbourhood electronics store - if you should happen to have one available (using a passport on the way doesn't count). I don't, so I order most of the components on ebay and similar sources - parts may be cheap, but at least you'll need extras in order to assure at least one of them works.
