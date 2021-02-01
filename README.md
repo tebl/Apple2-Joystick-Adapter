@@ -7,6 +7,7 @@ The adapter allows you to connect up to two Atari-style joysticks up to the Appl
 
 - [1> Building the adapter](#1-building-the-adapter)
   - [1.2> IDC-cables](#12-idc-cables)
+  - [1.3> Testing it out](#13-testing-it-out)
 - [2> BOM](#2-bom)
   - [2.1> Miscellaneous components](#21-miscellaneous-components)
 
@@ -40,6 +41,17 @@ The flat ribbon DB9 connector is easy to use, just push the ribbon through and a
 If also adding the 2x5pin straight pin IDC to the other side, then it will have a spot for the tenth wire, this is left empty as we only use nine for the DB9. The process for fixing it into place is the same as before, but there is probably no strain relief this time - so align it according to picture above
 
 Screw the IDC-connector into the case using M3-screws, I mainly use those that come with the cables if you got them (M3x6mm hex standoff, brass or otherwise as long as the cable is firmly in place).
+
+# 1.3> Testing it out
+Testing it out is easy, just make sure that it is installed properly - align the back pins with the holes on the socket then push it gently into place. As long as it is aligned properly, you shouldn't need to use more than a little bit of force - anything more and you'll just snap off or bend the header pins. Plug your joystick into what is marked port 1, the one closest to the side of the case, via the cable you just made and mounted on the case.
+
+At this point you can just try to load up a game and see if that works, but personally I like to test it out using some basic code first - if only to see that all the directions work as expected. There is an [article](https://devonhubner.org/check_if_the_appleii_joystick_is_working_using_applesoft_basic/) on Devon Hubners page that does this very nicely and goes into more detail, so just type in the simple version for now and run it (I've posted a copy of it below in case that page disappears).
+```
+10 PRINT PDL(0), PDL(1)
+20 GOTO 10
+```
+The little piece of code should print the X-value followed by the Y-value on the first port, it should be a number between 0 and 255. When not pushing anything it should center about the mid-point of this, mine was around 140 in values and worked nicely in the games I've tested (mostly Donkey Kong). If you get something significantly different, ensure that the correct value resistors went into the correct place (a swapped 68k and 100k would give 200, as I accidentally found out).
+
 
 # 2> BOM
 This is the list of parts that you'd need in order to construct Apple ][ Joystick Adapter, most could quite possibly be sourced from your friendly neighbourhood electronics store - if you should happen to have one available (using a passport on the way doesn't count). I don't, so I order most of the components on ebay and similar sources - parts may be cheap, but at least you'll need extras in order to assure at least one of them works.
