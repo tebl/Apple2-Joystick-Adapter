@@ -908,8 +908,6 @@ Wire Wire Line
 Wire Wire Line
 	5775 4300 5925 4300
 NoConn ~ 5775 4200
-Text Notes 4875 4675 0    50   ~ 0
-LEFT/RIGHT Center bug
 Text Label 10050 1800 2    50   ~ 0
 GC1
 Text Label 8575 1700 0    50   ~ 0
