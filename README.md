@@ -1,14 +1,16 @@
 # Apple ][ Joystick Adapter
-I have an Apple ][ somewhere in my storage room, I don't play on the thing much. Part of the reason might be the lack of a joystick, so I've been attempting to remedy that by soldering something together - the hard, and quite possibly the only real classic way, by reading about them in an old book and attempt to actually build the thing (Computer Controller Cookbook).
+I have an Apple //e somewhere in my storage room, I don't play on the thing much. Part of the reason might be the lack of a joystick, so I've been attempting to remedy that by soldering something together - the hard, and quite possibly the only real classic way, by reading about them in an old book and attempt to actually build the thing (Computer Controller Cookbook).
 
 ![Installation done](https://github.com/tebl/Apple2-Joystick-Adapter/raw/main/gallery/2021-01-31%2020.42.28.jpg)
 
-The adapter allows you to connect up to two Atari-style joysticks up to the Apple ][, if you like that sort of thing. I'm told most Apple fans prefer their joysticks to be analog because that was all the rage was all about at the end of the 70s, but as already mentioned I don't have one - I on the other hand have a ton of Atari-style joysticks so those are the ones I'd like to use. Keep reading for all the necessary details, click links below if you want to skip to a specific section.
+The adapter allows you to connect up to two Atari-style joysticks up to the Apple //e, if you like that sort of thing. I'm told most Apple fans prefer their joysticks to be analog because that was all the rage was all about at the end of the 70s, but as already mentioned I don't have one - I on the other hand have a ton of Atari-style joysticks so those are the ones I'd like to use. Keep reading for all the necessary details, click links below if you want to skip to a specific section.
 
 - [1> Building the adapter](#1-building-the-adapter)
   - [1.2> IDC-cables](#12-idc-cables)
 - [2> BOM](#2-bom)
   - [2.1> Miscellaneous components](#21-miscellaneous-components)
+
+**NB!** I don't have any of the other variants of the Apple ][ computer than the //e, so I've not been able to test the design on any other variant. I can't tell you wether they work or even fit into them.
 
 # 1> Building the adapter
 Building the adapter, as with most things that deals with electronic projects, starts with going through the [BOM](#2-bom) and ordering whatever you don't already have. Compare with the gallery pictures if you're wondering what something looks like, unfortunately ebay is not a good place to shop for well-described components - I usually just order one of each if they're cheap (it'll get used sometime, if only to irritate someone attempting to build more than one of my projects).
@@ -35,7 +37,7 @@ This is the list of parts that you'd need in order to construct Apple ][ Joystic
 
 | Reference            | Item                                              | Count |
 | -------------------- | ------------------------------------------------- | ----- |
-| Adapter (PCB)        | Fabricate using Gerber files ([order]())          |     1 |
+| Adapter (PCB)        | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Apple___e_Joystick_Adapter.html))          |     1 |
 | A1 *                 | 8 pin machined pin header                         |     2 |    
 | C1,C2                | 100nF ceramic capacitor (5mm)                     |     2 |
 | C3                   | 4.7uF electrolytic capacitor (2mm)                |     1 |
